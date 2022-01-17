@@ -55,14 +55,17 @@ nav ol .navbar-list{
 }
 
 nav ol .navbar-list:hover{
-    background-color: gray;
+    background-color: var(--birtu);
+    border-radius: 10px;
+    --putih : #ffffff;
 }
 
 nav ol .navbar-list a{
     text-decoration: none;
-    color: black;
+    color: var(--putih);
     margin: 5px 10px 5px 10px;
 }
+
 
 .foto-mobile-doang{
     display: none;
@@ -173,13 +176,13 @@ nav ol .navbar-logo img{
     font-family: 'Work Sans', sans-serif;
     font-size: 50px;
     color: white;
-    /* text-shadow: blue 2px 3px; */
+    text-shadow: black 2px 3px 2px;
 }
 
 .master-bagian h2{
     font-size: 30px;
     color: white;
-    /* text-shadow: blue 2px 3px; */
+    text-shadow: black 2px 3px 2px;
 }
 
 .welcome-bagian{
@@ -356,11 +359,11 @@ footer{
     margin-bottom: 20px;
 }
 
-.footer-bagian .list-halaman ol li{
+.footer-bagian .list-halaman ul li{
     font-size: 20px;
 }
 
-.footer-bagian .list-halaman ol li a{
+.footer-bagian .list-halaman ul li a{
     text-decoration: none;
     color: var(--white);
     margin-top: 10px;
