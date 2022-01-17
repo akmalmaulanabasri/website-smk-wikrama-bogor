@@ -56,7 +56,7 @@ nav ol .navbar-list{
 
 nav ol .navbar-list:hover{
     background-color: var(--birtu);
-    border-radius: 10px;
+    border-radius: 5px;
     --putih : #ffffff;
 }
 
